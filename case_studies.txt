@@ -1,0 +1,35 @@
+Capstone Project: Lineage Discrepancy & Mismatch Case Studies
+
+SAMPLE ACCESSION: SRR11397412
+ - Reported Lineage : Unassigned
+ - Nextclade Call : B (Match: False)
+ - Pangolin Call : Unassigned (Match: False)
+ - Mean Depth : 6412.55x
+ - Coverage Breadth : 43.53%
+ - DIAGNOSTIC ANALYSIS: 
+ * Low genome coverage breadth (43.53% < 90.0%). Likely points to amplicon dropout or primer binding site mutations preventing amplification.
+
+------------------------------------------------------------------------
+
+SAMPLE ACCESSION: SRR11454612
+ - Reported Lineage : Unassigned
+ - Nextclade Call : B (Match: False)
+ - Pangolin Call : Unassigned (Match: False)
+ - Mean Depth : 32.77x
+ - Coverage Breadth : 97.69%
+ - DIAGNOSTIC ANALYSIS: 
+ * High coverage sample mismatch. Investigate potential outdated ARTIC primer scheme or lineage database stale definitions.
+
+------------------------------------------------------------------------
+
+SAMPLE ACCESSION: SRR11476449
+ - Reported Lineage : A
+ - Nextclade Call : B (Match: False)
+ - Pangolin Call : A (Match: True)
+ - Mean Depth : 20221.93x
+ - Coverage Breadth : 99.85%
+ - DIAGNOSTIC ANALYSIS: 
+ * Tool Disagreement: Nextclade uses mutation distance on a reference tree, whereas Pangolin uses pUSHER phylogenetic placement. Resolution differences can cause nominal designation mismatches.
+
+------------------------------------------------------------------------
+
